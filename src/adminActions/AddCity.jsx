@@ -12,12 +12,12 @@ const NewCity = () => {
   const ref = collection(db, 'cities')
 
 
-  const getCities = async () => {
-    const data = await getDocs(ref);
+  // const getCities = async () => {
+  //   const data = await getDocs(ref);
 
-  };
+  // };
 
-  getCities();
+  // getCities();
   const filechange = (e) => {
     console.log(cityName.current.value);
   }
