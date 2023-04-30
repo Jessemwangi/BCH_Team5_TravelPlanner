@@ -57,7 +57,7 @@ class CityExplore extends Component {
       randNumbers.includes(this.cityData.indexOf(city))
     );
     this.setState({ displayCities: this.displayCities });
-    this.getSights();
+    // this.getSights();
 
     this.setState({ loading: false });
   };
